@@ -1,0 +1,135 @@
+body {
+  font-size: 1rem;
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(204, 43%, 93%);
+}
+.container {
+  margin-top: 10rem;
+  width: 44rem;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+
+
+/* Join our community */
+.community {
+  padding: 2.5rem;
+}
+.community h2 {
+  color: hsl(179, 62%, 43%);
+}
+.community h3 {
+  color: hsl(71, 73%, 54%);
+}
+.community p {
+  line-height: 2rem;
+  color: hsl(218, 22%, 67%);
+}
+
+
+/* container fot :  "Monthly Subscription" and "Why Us" */
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+/*  Monthly Subscription styles */
+.subscription {
+  display: inline-block;
+  padding: 1.25rem 2.5rem;
+  background-color: hsl(179, 62%, 43%);
+  color: #FFF;
+  border-radius: 0 0 0 8px;
+  width: 50%;
+}
+.subscription div {
+  display: flex;
+  flex-direction: row;
+}
+.subscription div span{
+  font-size: 2rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.subscription h4 {
+  font-weight: lighter;
+}
+.subscription div p{
+  color: hsl(204, 43%, 93%);
+}
+.subscription button{
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  outline: none;
+  border: none;
+  border-radius: .5rem;
+  padding: 1rem 0;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 5px;
+  opacity: 1;
+}
+.subscription button:hover{
+  opacity: .8;
+}
+
+
+/* Why Us styles*/
+.why {
+  display: inline-block;
+  padding: 1.25rem 2.5rem;
+  background-color: hsl(179, 50%, 50%);
+  color: #FFF;
+  border-radius: 0 0 .5rem 0;
+  width: 50%;
+}
+.why ul {
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 700px) {
+  .container{
+    width: 90%;
+    margin-top: 2rem;
+  }
+  .community {
+    padding: 1.5rem;
+  }
+  .card {
+    width: 100%;
+    flex-direction: column;
+    
+  }
+  .subscription {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+  .why {
+    width: 100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 0 0 .5rem .5rem;
+  }
+}
