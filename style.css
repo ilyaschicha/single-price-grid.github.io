@@ -12,7 +12,7 @@ body {
 }
 .container {
   margin-top: 10rem;
-  width: 44rem;
+  width: 50%;
   border-radius: 8px;
   background-color: #FFF;
 }
@@ -107,7 +107,17 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 820px) {
+  .container{
+    width: 70%;
+  }
+}
+@media (max-width: 580px) {
+  .container{
+    width: 95%;
+  }
+}
+@media (max-width: 495px) {
   .container{
     width: 90%;
     margin-top: 2rem;
